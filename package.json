@@ -1,0 +1,24 @@
+{
+  "name": "delta-forms-validation-remote",
+  "version": "0.1.0",
+  "description": "Class representing server side validation rule for DeltaJS forms library",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "node_modules/.bin/jsdoc src -r -d docs"
+  },
+  "author": "Dmitry Lysenko <delta.npm@gmail.com> (https://github.com/teleroot)",
+  "repository": "https://github.com/teleroot/delta-forms-validation-remote",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "delta-forms": "^0.1.0",
+    "qs": "^6.5.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-config-google": "^0.11.0",
+    "jsdoc": "^3.5.5"
+  }
+}
